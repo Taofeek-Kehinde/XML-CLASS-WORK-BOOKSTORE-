@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (author, title, published)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT published (#PCDATA)>
+<!ELEMENT still_practicing(#PCDATA)>
+
+<bookstore>
+ <books title="Mr author" published="2005-30-1" page="10pages" rows="200" col="300" height="100vh">
+ <author gender="Male"  previous_book="coding" still_practicing="false">Kenny Gold </author>
+
+ </books>
+
+  <books title="Mr author" published="765764-56"  page="10pages" rows="200" col="300" height="100vh">
+ <author gender="Female" title="Mrs author" previous_book="coding" still_practicing="true">Williams smith </author>
+
+ </books>
+
+  <books title="Mr author"published="08766-678" page="10pages" rows="200" col="300" height="100vh">
+ <author gender="Male" title="Mr author" previous_book="coding" still_practicing="true">Olawale </author>
+
+ </books>
+
+  <books title="Mr author" published="764676-65" page="10pages" rows="200" col="300" height="100vh">
+ <author gender="Female" title="Mr author" previous_book="coding" still_practicing="true">Olasunmbo</author>
+
+ </books>
+
+  <books title="Mr author" published="39958-593" page="10pages" rows="200" col="300" height="100vh">
+ <author gender="Male" title="Mr author"  previous_book="coding" still_practicing="true">Taofeek </author>
+
+ </books>
+
+</bookstore>
